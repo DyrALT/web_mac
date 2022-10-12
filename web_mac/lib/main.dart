@@ -1,15 +1,16 @@
-import 'package:example/pages/buttons_page.dart';
-import 'package:example/pages/colors_page.dart';
-import 'package:example/pages/dialogs_page.dart';
-import 'package:example/pages/fields_page.dart';
-import 'package:example/pages/indicators_page.dart';
-import 'package:example/pages/selectors_page.dart';
-import 'package:example/pages/tabview_page.dart';
-import 'package:example/pages/toolbar_page.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:macos_ui/macos_ui.dart';
 import 'package:provider/provider.dart';
+import 'package:web_mac/pages/dialogs_page.dart';
+import 'package:web_mac/pages/selectors_page.dart';
+import 'package:web_mac/pages/tabview_page.dart';
+import 'package:web_mac/pages/toolbar_page.dart';
 
+import 'pages/buttons_page.dart';
+import 'pages/colors_page.dart';
+import 'pages/fields_page.dart';
+import 'pages/indicators_page.dart';
 import 'theme.dart';
 
 void main() {
